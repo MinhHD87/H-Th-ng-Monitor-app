@@ -1,0 +1,16 @@
+name=voicebrand
+drivers=com.mysql.jdbc.Driver
+#logfile=
+voicebrand.url=jdbc:mysql://localhost:3000/monitor_test?useUnicode=true&characterEncoding=UTF-8
+voicebrand.user=monitor
+voicebrand.password=MoniTor@123
+voicebrand.minpool=3
+voicebrand.maxpool=5
+# 0 (unlimited)
+voicebrand.maxsize=5
+#0 (no timeout)
+voicebrand.idleTimeout=180
+voicebrand.validator=snaq.db.AutoCommitValidator
+# Option to enable/disable caching of statements.       true/false      true (caching enabled)
+voicebrand.cache=false
+voicebrand.debug=false

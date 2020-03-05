@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>    
+    <category name="appconfig">
+		<property name="LB_NODE" value="NODE_DEV"/>
+		<property name="maxThread" value="75"/>
+		<property name="MASTER" value="0"/>
+		<property name="SV_ALERT" value="0"/>
+		<property name="NODE_DEV" value="0"/>
+		<property name="BUID_CDR" value="0"/>
+		<property name="PATH_CACHE_LOG_MSG_BR_INCOME" value="../log/ZONESMS_LOG_INCOME"/>
+		<property name="PATH_CACHE_LOG_MSG_BR_INCOME_ADS" value="../log/ZONESMS_LOG_INCOME_ADS"/>
+		<property name="PATH_CACHE_LOG_MSG_BR_SUBMIT" value="../log/ZONESMS_LOG_SUBMIT"/>
+		<property name="PATH_CACHE_BRAND_SEND" value="../log/ZONESMS_QUEUE_SEND"/>
+		<property name="PATH_CACHE_BRAND_SEND_OVER" value="../log/ZONESMS_QUEUE_SEND_OVER"/>
+		<property name="TPS_LOG" value="50"/>
+    </category>
+    <category name="EMAIL">
+        <property name="MAIL_USER" value="abc@abc.abc" />
+        <property name="MAIL_PASS" value="kd#ks89kjdAjd7" />
+        <property name="MAIL_HOST" value="abc.abc.abc" />
+        <property name="MAIL_DEBUG" value="false" />
+    </category>
+    <category name="webService">
+        <property name="contextPath" value="/service" />
+        <property name="port" value="9913" />
+    </category>
+    <category name="redisCache" >
+        <property name="REDIS_MASTER_IP" value="127.0.0.1" />
+        <property name="REDIS_MASTER_PORT" value="13679" />
+        <property name="REDIS_MASTER_PASS" value="" />
+    </category>
+    <category name="smpp_South">
+        <property name="SOUTH_IP" value="api-02.worldsms.vn" />
+        <property name="SOUTH_IP_BAK" value="api-01.worldsms.vn" />
+        <property name="SOUTH_PORT" value="9696" />
+        <property name="SOUTH_USER" value="htcbank" />
+        <property name="SOUTH_PASS" value="dB57vP3g" />
+    </category>
+	<category name="banksms1_vte">
+		<property name="DEVICE_USER" value="admin" />
+        <property name="DEVICE_PASS" value="#HTC@2016*" />
+        <property name="DEVICE_IP" value="118.70.109.34" />
+        <property name="DEVICE_PORT" value="58201" />
+        <property name="SIM_PORT" value="0,1,2,3,4" />
+        <property name="NATION" value="VIETNAM" />
+        <property name="TELCO" value="VTE" />
+    </category>
+	<category name="banksms1_gpc">
+		<property name="DEVICE_USER" value="admin" />
+        <property name="DEVICE_PASS" value="#HTC@2016*" />
+        <property name="DEVICE_IP" value="118.70.109.34" />
+        <property name="DEVICE_PORT" value="58201" />
+        <property name="SIM_PORT" value="8,9,10,11,12,13,14,15" />
+        <property name="NATION" value="VIETNAM" />
+        <property name="TELCO" value="GPC" />
+    </category>
+	<category name="banksms1_vms">
+		<property name="DEVICE_USER" value="admin" />
+        <property name="DEVICE_PASS" value="#HTC@2016*" />
+        <property name="DEVICE_IP" value="118.70.109.34" />
+        <property name="DEVICE_PORT" value="58201" />
+        <property name="SIM_PORT" value="" />
+        <property name="NATION" value="VIETNAM" />
+        <property name="TELCO" value="VMS" />
+    </category>
+	<category name="banksms1_vnm">
+		<property name="DEVICE_USER" value="admin" />
+        <property name="DEVICE_PASS" value="#HTC@2016*" />
+        <property name="DEVICE_IP" value="118.70.109.34" />
+        <property name="DEVICE_PORT" value="58201" />
+        <property name="SIM_PORT" value="" />
+        <property name="NATION" value="VIETNAM" />
+        <property name="TELCO" value="VNM" />
+    </category>
+	<category name="banksms1_bl">
+		<property name="DEVICE_USER" value="admin" />
+        <property name="DEVICE_PASS" value="#HTC@2016*" />
+        <property name="DEVICE_IP" value="118.70.109.34" />
+        <property name="DEVICE_PORT" value="58201" />
+        <property name="SIM_PORT" value="" />
+        <property name="NATION" value="VIETNAM" />
+        <property name="TELCO" value="BL" />
+    </category>
+	<category name="banksms1_internation">
+		<property name="DEVICE_USER" value="admin" />
+        <property name="DEVICE_PASS" value="#HTC@2016*" />
+        <property name="DEVICE_IP" value="118.70.109.34" />
+        <property name="DEVICE_PORT" value="58201" />
+        <property name="SIM_PORT" value="0,1,2,3,4" />
+        <property name="NATION" value="ALL" />
+        <property name="TELCO" value="ALL" />
+    </category>
+</properties>
+
